@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.75.0"  # ✅ Fully compatible with vpc 3.14.2
+      version = "~> 5.75.0"  # ✅ Fully compatible with vpc 3.14.2
     }
   }
 }
